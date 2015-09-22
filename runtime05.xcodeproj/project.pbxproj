@@ -13,6 +13,7 @@
 		5DD7E5691BB12188000C28DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD7E5671BB12188000C28DD /* Main.storyboard */; };
 		5DD7E56B1BB12188000C28DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD7E56A1BB12188000C28DD /* Assets.xcassets */; };
 		5DD7E56E1BB12188000C28DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD7E56C1BB12188000C28DD /* LaunchScreen.storyboard */; };
+		5DD7E5771BB121C9000C28DD /* UIViewController+RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7E5761BB121C9000C28DD /* UIViewController+RuntimeTest.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5DD7E56A1BB12188000C28DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DD7E56D1BB12188000C28DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DD7E56F1BB12188000C28DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DD7E5751BB121C9000C28DD /* UIViewController+RuntimeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RuntimeTest.h"; sourceTree = "<group>"; };
+		5DD7E5761BB121C9000C28DD /* UIViewController+RuntimeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RuntimeTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				5DD7E5611BB12188000C28DD /* AppDelegate.h */,
 				5DD7E5621BB12188000C28DD /* AppDelegate.m */,
+				5DD7E5751BB121C9000C28DD /* UIViewController+RuntimeTest.h */,
+				5DD7E5761BB121C9000C28DD /* UIViewController+RuntimeTest.m */,
 				5DD7E5641BB12188000C28DD /* ViewController.h */,
 				5DD7E5651BB12188000C28DD /* ViewController.m */,
 				5DD7E5671BB12188000C28DD /* Main.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DD7E5661BB12188000C28DD /* ViewController.m in Sources */,
+				5DD7E5771BB121C9000C28DD /* UIViewController+RuntimeTest.m in Sources */,
 				5DD7E5631BB12188000C28DD /* AppDelegate.m in Sources */,
 				5DD7E5601BB12188000C28DD /* main.m in Sources */,
 			);
